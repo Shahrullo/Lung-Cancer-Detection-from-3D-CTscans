@@ -47,7 +47,7 @@ class ClassificationTrainingApp:
         parser = argparse.ArgumentParser()
         parser.add_argument('--batch-size',
             help='Batch size to use for training',
-            default=8,
+            default=24,
             type=int,
         )
         parser.add_argument('--num-workers',
