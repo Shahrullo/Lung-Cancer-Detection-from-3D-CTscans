@@ -26,9 +26,9 @@ log = logging.getLogger(__name__)
 # log.setLevel(logging.INFO)
 log.setLevel(logging.DEBUG)
 
-root_path = 'D:/LUNADataset/'
+root_path = '../LUNADataset/'
 
-raw_cache = getCache('part2ch14_raw')
+raw_cache = getCache('data_raw')
 
 MaskTuple = namedtuple('MaskTuple', 'raw_dense_mask, dense_mask, body_mask, air_mask, raw_candidate_mask, candidate_mask, lung_mask, neg_mask, pos_mask')
 

@@ -25,9 +25,9 @@ log = logging.getLogger(__name__)
 # log.setLevel(logging.INFO)
 log.setLevel(logging.DEBUG)
 
-root_path = 'D:/LUNADataset/'
+root_path = '../LUNADataset/'
 
-raw_cache = getCache('part2ch14_raw')
+raw_cache = getCache('data_raw')
 
 CandidateInfoTuple = namedtuple(
     'CandidateInfoTuple',

@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from torch.utils.tensorboard import SummaryWriter
-sys.path.append('C:/Users/Shahrullohon/Desktop/Fighting Cancer with PyTorch/util')
+sys.path.append('../../util')
 
 import torch
 import torch.nn as nn
@@ -495,9 +495,7 @@ class ClassificationTrainingApp:
 
     def saveModel(self, type_str, epoch_ndx, isBest=False):
         file_path = os.path.join(
-            'data-unversioned',
-            'part2',
-            'models',
+            'trained_models',
             self.cli_args.tb_prefix,
             '{}_{}_{}.{}.state'.format(
                 type_str,
@@ -527,9 +525,7 @@ class ClassificationTrainingApp:
 
         if isBest:
             best_path = os.path.join(
-                'data-unversioned',
-                'part2',
-                'models',
+                'trained_models',
                 self.cli_args.tb_prefix,
                 '{}_{}_{}.{}.state'.format(
                     type_str,
