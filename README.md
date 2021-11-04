@@ -1,5 +1,7 @@
 # Lung Cancer Detection from 3D CTscans
 
+Please, refer to [run_sample](https://github.com/Shahrullo/Lung-Cancer-Detection-from-3D-CTscans/blob/main/run_sample.ipynb) Notebook for the final results
+
 <!-- The project is based on [Deep Learning with PyTorch book](https://pytorch.org/assets/deep-learning/Deep-Learning-with-PyTorch.pdf) -->
 
 
